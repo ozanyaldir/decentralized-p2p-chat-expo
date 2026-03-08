@@ -1,0 +1,52 @@
+{
+  "name": "pearbare",
+  "version": "0.3.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "bundle": "./script/bundle_worklet.sh",
+    "android": "npm run bundle && expo run:android",
+    "ios": "npm run bundle && expo run:ios",
+    "web": "expo start --web",
+    "barelog": "adb logcat '*:S bare:*'",
+    "lint": "npx prettier --write . && expo lint"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~4.0.0",
+    "@react-native-async-storage/async-storage": "^3.0.1",
+    "@react-native-clipboard/clipboard": "^1.16.3",
+    "@react-navigation/native": "^7.1.33",
+    "@react-navigation/native-stack": "^7.2.0",
+    "@reduxjs/toolkit": "^2.11.2",
+    "b4a": "1.6.7",
+    "bare-events": "^2.5.4",
+    "bare-rpc": "^0.1.4",
+    "events": "^3.3.0",
+    "expo": "~52.0.25",
+    "expo-build-properties": "^0.13.2",
+    "expo-status-bar": "~2.0.1",
+    "hypercore-crypto": "3.4.2",
+    "hyperswarm": "4.8.4",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-native": "0.76.6",
+    "react-native-bare-kit": "0.4.6",
+    "react-native-gesture-handler": "^2.30.0",
+    "react-native-keyboard-controller": "^1.20.7",
+    "react-native-reanimated": "~3.16.1",
+    "react-native-safe-area-context": "^5.7.0",
+    "react-native-screens": "^4.11.1",
+    "react-native-web": "~0.19.13",
+    "react-redux": "^9.2.0",
+    "redux-persist": "^6.0.0",
+    "tiny-emitter": "2.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@types/react": "~18.3.12",
+    "bare-pack": "1.1.5",
+    "eslint": "^8.57.0",
+    "eslint-config-expo": "~8.0.1",
+    "typescript": "^5.3.3"
+  }
+}
