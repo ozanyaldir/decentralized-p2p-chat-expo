@@ -1,4 +1,4 @@
-# Peer-to-Peer Chat (Expo POC)
+# Decentralized Peer-to-Peer Chat (Expo POC)
 
 A high-performance, interoperable decentralized messaging demonstration built with **React Native** and **Expo**. This proof-of-concept (POC) explores direct peer-to-peer communication on mobile devices (Android & iOS) leveraging a specialized runtime for distributed applications.
 
