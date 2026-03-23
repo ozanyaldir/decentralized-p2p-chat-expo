@@ -38,5 +38,5 @@ This project serves as a technical architecture study for decentralized communic
 ### Installation
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/ozanyaldir/p2p-chat-poc-expo.git
-   cd p2p-chat-poc-expo
+   git clone https://github.com/ozanyaldir/decentralized-p2p-chat-expo.git
+   cd decentralized-p2p-chat-expo
